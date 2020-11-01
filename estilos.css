@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	background: #313D52; 
+}
+.center{
+	background-color: blue;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+.menu > li{
+	/*position: relative*/
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
